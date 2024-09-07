@@ -8,7 +8,6 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import r2_score
 import pymysql
 
-import pickle
 import numpy as np
 
 load_dotenv()
@@ -29,7 +28,8 @@ def read_sql_data():
             password=password,
             db=db
         )
-        logging.info("Connection Established",mydb)
+        logging.info(f"Connection Established: {mydb}")
+
         df=pd.read_sql_query('Select * from students',mydb)
         print(df.head())
 
@@ -38,4 +38,4 @@ def read_sql_data():
 
 
     except Exception as ex:
-        raise CustomException(ex)
+        raise CustomException(ex, sys)
