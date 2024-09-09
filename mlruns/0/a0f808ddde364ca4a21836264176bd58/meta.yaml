@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/riyaz/OneDrive/Desktop/Student-Performance-Predictor/mlruns/0/a0f808ddde364ca4a21836264176bd58/artifacts
+end_time: 1725864330316
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a0f808ddde364ca4a21836264176bd58
+run_name: treasured-pug-190
+run_uuid: a0f808ddde364ca4a21836264176bd58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1725864327306
+status: 3
+tags: []
+user_id: root

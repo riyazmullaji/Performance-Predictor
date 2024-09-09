@@ -7,7 +7,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder,StandardScaler
-
+from mlflow.models.signature import infer_signature
 from src.mlproject.exception import CustomException
 from src.mlproject.logger import logging
 import os
