@@ -60,7 +60,7 @@ To run this project locally, follow these steps:
 ## Project Structure
 
 ```plaintext
-student-performance-prediction/
+student-performance-predictor/
 │
 ├── data/
 │   ├── student-mat.csv
@@ -72,13 +72,33 @@ student-performance-prediction/
 │   └── model_evaluation.ipynb
 │
 ├── src/
+│   ├── mlproject/
+│   │   ├── __init__.py
+│   │   ├── components/
+│   │   │   ├── __init__.py
+│   │   │   ├── data_ingestion.py
+│   │   │   ├── data_transformation.py
+│   │   │   ├── model_trainer.py
+│   │   │   └── model_monitoring.py
+│   │   ├── pipelines/
+│   │   │   ├── __init__.py
+│   │   │   ├── training_pipeline.py
+│   │   │   └── prediction_pipeline.py
+│   │   ├── exception.py
+│   │   ├── logger.py
+│   │   └── utils.py
 │   ├── preprocess.py
 │   ├── train.py
 │   └── evaluate.py
 │
+├── main.py
+├── app.py
+├── Dockerfile
 ├── requirements.txt
+├── setup.py
 ├── README.md
 └── LICENSE
+
 ```
 
 ## Usage
