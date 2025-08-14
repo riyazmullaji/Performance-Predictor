@@ -129,12 +129,7 @@ We welcome contributions to improve the project. To contribute:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
 
-- [Scikit-Learn](https://scikit-learn.org/stable/) for machine learning algorithms.
-- [Flask](https://flask.palletsprojects.com/en/2.0.x/) for web application framework.
-- [Pandas](https://pandas.pydata.org/pandas-docs/stable/) for data manipulation.
-- [NumPy](https://numpy.org/) for numerical operations.
 
 ## Contact
 
